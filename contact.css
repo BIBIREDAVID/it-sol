@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 10%;
+    padding-top: 22px;
+}
+.linksbody{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.links:hover{
+    color:#157CDC !important;
+}
+.links{
+    text-decoration: none;
+    margin-left: 45px; 
+    font-size:20px;
+    color: black;
+}
+.bu{
+    width: 120px;
+    height: 6vh;
+    margin-top:20px ;
+    background-color: #157CDC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.bu:hover{
+   background-color: blue;
+}
+.body1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    height: 70vh;
+}
+.roadmap{
+    margin-top: -50px;
+}
+.body2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    height: 70vh;
+    justify-content: space-evenly;
+}
+.sim{
+    width: 25%;
+    font-size: 25px;
+}
+.box1{
+    width: 70px;
+    box-shadow: 1px 1px 3px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.fa-map-marker{
+    margin-left: 25px;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
+    font-size: 30px;
+    color: blue;
+}
+.baker{
+    margin-left: 90px;
+    width: 200px;
+    margin-top: -30px;
+}
+.baker p{
+    color: grey;
+    font-size: 13px;
+}
+.box2{
+    width: 70px;
+    box-shadow: 1px 1px 3px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.fa-phone{
+    margin-left: 25px;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
+    font-size: 30px;
+    color: blue;
+}
+.toll{
+    margin-left: 90px;
+    width: 200px;
+    margin-top: -30px;
+}
+.toll p{
+    color: grey;
+    font-size: 13px;
+}
+.box3{
+    width: 70px;
+    box-shadow: 1px 1px 3px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 30px; 
+}
+.fa-envelope{
+    margin-left: 25px;
+    padding-top: 20px;
+    flex-direction: row;
+    display: flex;
+    font-size: 30px;
+    color: blue;
+}
+.come{
+    margin-left: 90px;
+    width: 200px;
+    margin-top: -30px;
+}
+.come p{
+    color: grey;
+    font-size: 13px; 
+}
+.sime{
+    width: 55%;
+    margin-left: 150px;
+    margin-top: 1rem;
+}
+
+.et{
+  padding: 15px 20px;  
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 2px grey;
+}
+.ex{
+    padding: 15px 20px;  
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px grey; 
+    margin-left: 10px;
+}
+.mesg{
+    margin-top: 20px;
+}
+.pl{
+    padding: 15px 45px;  
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px grey; 
+}
+.area{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px grey; 
+}
+.sage{
+    margin-top: 20px;
+}
+.end{
+    padding: 10px 15px;
+    border: none;
+    background-color: #157CDC;
+    border-radius: 5px;
+    color: white;
+    margin-top: 60px;
+}
+.end:hover{
+    background-color: blue;
+}
+.body3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.iges{
+    width: 30%;
+}
+.t8{
+    border: none;
+    border-radius: 7px;
+}
+.request{
+    font-size: 40px;
+    width: 40%;
+}
+.request p{
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+}
+.num{
+    border: none;
+    padding: 15px 20px;
+    box-shadow: 1px 2px 2px 2px grey;
+    border-radius: 5px;
+}
+.all{
+    background-color: #157CDC;
+    color: white;
+    padding:15px 20px ;
+    border: none;
+    border-radius:5px ;
+    margin-top: 2rem;
+}
+.all:hover{
+    background-color: blue;
+}
+.body4{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    height: 25vh;
+    background-color: #157CDC;
+    justify-content: space-evenly;
+}
+.pricing{
+    background-color: #157CDC;
+    margin-top: 70px;
+    width: 20%;
+}
+.table{
+    padding: 15px 70px;
+    background-color: #157CDC;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.out{
+    font-size: 30px;
+    width: 30%;
+    color: white;
+    margin-top: 50px;
+}
+.kin{
+    width: 320px;
+    color: white;
+    margin-top: 70px;
+}
+.container11{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgba(0, 0, 0, 0.733);
+    height: 60vh;
+}
+.container11a{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.foter{
+   width: 17%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.your{
+    background-color: grey;
+    border: 2px solid white;
+    color: white;
+    padding: 1opx 20px;
+}
+.fcontent{
+    color: white;
+    margin-top: 30px;
+}
+.circles{
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.circle-1{
+   width: 60px;
+   height: 60px;
+   background-color:#157CDC ;
+   border-radius: 50%;
+}
+.circle-2{
+    width: 60px;
+    height: 60px;
+    background-color:white ;
+    border-radius: 50%;
+}
+.fa-facebook{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.fa-twitter{
+    margin-top: 20px;
+    margin-left: 25px;
+    color:#157CDC;
+}
+.fa-instagram{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.fa-whatsapp{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.bod{
+    flex-direction: row;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.linkss:hover{
+    color: blue;
+}
+.comp{
+    width: 10%;
+    flex-direction: row;
+    display: flex;
+}
+.comp a{
+    text-decoration: none;
+    color: white;
+}
+.compan{
+    color: white;
+    font-size: 20px;
+}
+.compan li{
+   font-size: 15px;
+   list-style: none;
+   margin-top: 10px;
+}
+.others{
+    width: 15%;
+    display: flex;  
+}
+.others a{
+    text-decoration: none;
+    color: white;
+}
+.thers p{
+   font-size: 20px;
+   color: white;
+}
+.thers{
+    color: white;
+    list-style: none;
+    
+}
+.thers li{
+    margin-top: 10px;
+}
+.call{
+    width: 50%;
+}
+.call p{
+    color: white;
+}
+.your{
+    padding: 10px 20px;
+    background-color:rgba(128, 128, 128, 0.425) ;
+}
+.cons{
+    background-color:#157CDC ;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+}
+.cons:hover{
+    background-color: white;
+    color: blue;
+    border: 4px solid#157CDC;
+    border-radius: 3px;
+}
+.container12{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 10vh;
+    justify-content: space-around;
+}
+.stud{
+    color: white;
+    margin-top: 30px;
+}
+.terms{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.terms a{
+    color: white;
+    text-decoration: none;
+}

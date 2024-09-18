@@ -1,0 +1,598 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 10%;
+    padding-top: 22px;
+}
+.linksbody{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.links:hover{
+    color:#157CDC !important;
+}
+.links{
+    text-decoration: none;
+    margin-left: 45px; 
+    font-size:20px;
+    color: black;
+}
+.bu{
+    width: 120px;
+    height: 6vh;
+    margin-top:20px ;
+    background-color: #157CDC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.bu:hover{
+   background-color: blue;
+}
+.container15{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./images/slide1\ \(1\).jpg);
+    height: 90vh;
+}
+.container16{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 15vh;
+    justify-content: center;
+}
+.coni{
+    margin-top: 15px;
+   
+}
+.coni p{
+    margin-left: 55px;
+}
+.data{
+    font-size: 15px;
+}
+.container17{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 210vh;
+    justify-content: center;
+}
+.ou{
+    width: 80%;
+    font-size: 20px;
+}
+.vacy{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.tent{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.mation{
+    font-size: 15px;
+}
+.ou p{
+    color: grey;
+    font-size: 20px;
+}
+.container18{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #157CDC;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+.find{
+    width: 29%;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+}
+.wil{
+    color: white;
+    width: 20%;
+    margin-top: 50px;
+}
+.tact{
+    padding: 20px 60px;
+    background-color: #157CDC;
+    border: 3px solid white;
+    color: white;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.container11{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgba(0, 0, 0, 0.733);
+    height: 60vh;
+}
+.container11a{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.foter{
+   width: 17%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.your{
+    background-color: grey;
+    border: 2px solid white;
+    color: white;
+    padding: 1opx 20px;
+}
+.fcontent{
+    color: white;
+    margin-top: 30px;
+}
+.circles{
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.circle-1{
+   width: 60px;
+   height: 60px;
+   background-color:#157CDC ;
+   border-radius: 50%;
+}
+.circle-2{
+    width: 60px;
+    height: 60px;
+    background-color:white ;
+    border-radius: 50%;
+}
+.fa-facebook{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.fa-twitter{
+    margin-top: 20px;
+    margin-left: 25px;
+    color:#157CDC;
+}
+.fa-instagram{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.fa-whatsapp{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.bod{
+    flex-direction: row;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.linkss:hover{
+    color: blue;
+}
+.comp{
+    width: 10%;
+    flex-direction: row;
+    display: flex;
+}
+.comp a{
+    text-decoration: none;
+    color: white;
+}
+.compan{
+    color: white;
+    font-size: 20px;
+}
+.compan li{
+   font-size: 15px;
+   list-style: none;
+   margin-top: 10px;
+}
+.others{
+    width: 15%;
+    display: flex;  
+}
+.others a{
+    text-decoration: none;
+    color: white;
+}
+.thers p{
+   font-size: 20px;
+   color: white;
+}
+.thers{
+    color: white;
+    list-style: none;
+    
+}
+.thers li{
+    margin-top: 10px;
+}
+.call{
+    width: 50%;
+}
+.call p{
+    color: white;
+}
+.cons{
+    background-color:#157CDC ;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+}
+.your{
+    padding: 10px 20px;
+    background-color:rgba(128, 128, 128, 0.425) ;
+}
+.cons:hover{
+    background-color: white;
+    color: blue;
+    border: 4px solid#157CDC;
+    border-radius: 3px;
+}
+.container12{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 10vh;
+    justify-content: space-around;
+}
+.stud{
+    color: white;
+    margin-top: 30px;
+}
+.terms{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.terms a{
+    color: white;
+    text-decoration: none;
+}
+.policy{
+    margin-left: 20px;
+}
+@media (max-width:576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .logo{
+        width: 10%;
+        margin-top: -2rem;
+        margin-left: auto;
+    }
+    .linksbody{
+        display: flex;
+        margin-left: -2.5rem;
+    }
+    .container15{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-image: url(./images/slide1\ \(1\).jpg);
+        height: 30vh;
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .coni p{
+        text-align: center;
+    }
+    .container17{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height:510vh;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .container18{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #157CDC;
+        height: 60vh;
+        justify-content: space-evenly;
+    }
+    .find{
+        width: 50%;
+        font-size: 30px;
+        color: white;
+        margin-top: 50px;
+        margin-left: 4rem;
+        margin-top: -5rem;
+    }
+    .wil{
+        color: white;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 4rem;
+        margin-top: -5rem;
+    }
+    .tact{
+        padding: 20px 60px;
+        background-color: #157CDC;
+        border: 3px solid white;
+        color: white;
+        border-radius: 25px;
+        margin-top: -11rem;
+        margin-left: 4rem;
+    }
+    .ou{
+        width: 80%;
+        font-size: 20px;
+        margin-left: -1.8rem;
+    }
+    .vacy{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .tent{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .mation{
+        font-size: 15px;
+    }
+    .ou p{
+        color: grey;
+        font-size: 20px;
+    }
+
+    .container10{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #157CDC;
+        height: 50vh;
+    }
+    .container10a{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .touch{
+        width: 80%;
+        font-size: 20px;
+        color: white;  
+        margin-top: -10rem; 
+        margin: auto;
+    }
+    .page{
+        width: 80%;
+        color: white;
+        margin: auto;
+        margin-top: -3rem; 
+    }
+    .but{
+        width: 25%;
+    }    
+    .container11{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        background-color:rgba(0, 0, 0, 0.733);
+        height: 150vh;
+    }
+    .container11a{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .foter{
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       margin-top: 400px;
+       margin: auto;
+    }
+    .your{
+        background-color: grey;
+        border: 2px solid white;
+        color: white;
+        padding: 1opx 20px;
+    }
+    .fcontent{
+        color: white;
+        margin-top: 30px;
+    }
+    .circles{
+        flex-direction: row;
+        display: flex;
+        width: 400px;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .circle-1{
+       width: 60px;
+       height: 60px;
+       background-color:#157CDC ;
+       border-radius: 50%;
+    }
+    .circle-2{
+        width: 60px;
+        height: 60px;
+        background-color:white ;
+        border-radius: 50%;
+    }
+    .fa-facebook{
+        margin-top: 20px;
+        margin-left: 25px;
+        color: white;
+    }
+    .fa-twitter{
+        margin-top: 20px;
+        margin-left: 25px;
+        color:#157CDC;
+    }
+    .fa-instagram{
+        margin-top: 20px;
+        margin-left: 25px;
+        color: white;
+    }
+    .fa-whatsapp{
+        margin-top: 20px;
+        margin-left: 25px;
+        color: white;
+    }
+    .bod{
+        flex-direction: column;
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-left: 200px;
+        
+    }
+    .comp{
+        width: 80%;
+        flex-direction: column;
+        display: flex;
+        margin-left: -10rem;
+    }
+    .comp a{
+        text-decoration: none;
+        color: white;
+    }
+    .compan{
+        color: white;
+        font-size: 20px;
+    }
+    .compan li{
+       font-size: 15px;
+       list-style: none;
+       margin-top: 10px;
+    }
+    .others{
+        width: 80%;
+        display: flex; 
+        margin-left: -10rem;
+    }
+    .others a{
+        text-decoration: none;
+        color: white;
+    }
+    .thers p{
+       font-size: 20px;
+       color: white;
+    }
+    .thers{
+        color: white;
+        list-style: none;
+        
+    }
+    .thers li{
+        margin-top: 10px;
+    }
+    .call{
+        width: 80%;
+        margin-left: -10rem;
+        margin-top: 6rem;
+    }
+    .call p{
+        color: white;
+    }
+    .cons{
+        background-color:#157CDC ;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 30px;
+        color: white;
+    }
+    .cons:hover{
+        background-color: white;
+        color: blue;
+        border: 4px solid#157CDC;
+        border-radius: 3px;
+    }
+    .cons a{
+        color: white;
+        text-decoration: none;
+    }
+    .cons a:hover{
+        color: blue;
+    }
+    .container12{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.89);
+        height: 10vh;
+        justify-content: space-around;
+    }
+    .stud{
+        color: white;
+        margin-top: 10px;
+    }
+    .terms{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        margin-top: -30rem;
+        margin: auto;
+    }
+    .policy{
+        margin-left: 20px;
+    }
+    .terms a{
+        color: white;
+        text-decoration: none;
+    }
+}
